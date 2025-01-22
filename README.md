@@ -65,6 +65,10 @@ The Profile Screen displays the user's information, including their profile pict
 - **Mobile Responsiveness**: Fully optimized for both Android and iOS devices with support for different screen sizes and orientations.
 - **Dynamic Functionality**: Features like the random voucher percentage and changing icon colors add interactive and engaging elements to the app.
 
+## Acknowledgments
+
+- The basic inspiration for the modal animations and the glassmorphism effect in this project was drawn from the [GlassMorphismApp](https://github.com/ainalem/GlassMorphismApp) repository. Thanks to the original author for the innovative ideas and approach.
+
 ## Getting Started
 
 ### Prerequisites
