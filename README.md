@@ -1,81 +1,114 @@
-# GlassMorphism
+# GlassMorphism React Native App
 
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+This project demonstrates a **React Native** app implementing a **Glassmorphism effect** across multiple screens, showcasing a visually appealing UI with frosted glass-like elements. The app contains several screens, each designed with a different focus while maintaining the glassmorphism theme.
 
-# Getting Started
+## What is Glassmorphism?
 
-> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+**Glassmorphism** is a design trend that revolves around creating a frosted glass-like effect, typically characterized by:
 
-## Step 1: Start the Metro Server
+- **Blurry backgrounds**: The background is blurred behind a semi-transparent, frosted glass-like surface.
+- **Vibrant colors**: Transparent surfaces are often layered on colorful or dynamic backgrounds to create visual contrast.
+- **Smooth, modern feel**: This effect gives a sleek, polished, and contemporary look to user interfaces.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+Glassmorphism is often used in modern web and mobile apps to give them a soft, translucent, and futuristic feel, making the UI feel less static and more fluid.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Screenshots
 
-```bash
-# using npm
-npm start
+### Home Screen
 
-# OR using Yarn
-yarn start
-```
+The Home Screen serves as the landing page, introducing the app and featuring the primary options to navigate between screens .
 
-## Step 2: Start your Application
+<img src="assets/screenshots/home.png" alt="Home Screen" width="300" />
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+### Card Screen
 
-### For Android
+The Card Screen displays information within cards, all designed with glassmorphism, creating a translucent, blurred background effect.
 
-```bash
-# using npm
-npm run android
+<img src="assets/screenshots/card.png" alt="Card Screen" width="300" />
 
-# OR using Yarn
-yarn android
-```
+### Button Variants
 
-### For iOS
+This screen shows various button types designed using the glassmorphism style, offering multiple interactive button styles.
 
-```bash
-# using npm
-npm run ios
+<img src="assets/screenshots/button.png" alt="Button Variants" width="300" />
 
-# OR using Yarn
-yarn ios
-```
+### Voucher
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+The Voucher screen features a dynamic system where the voucher percentage value is randomly changed each time it is accessed. This functionality provides a unique and engaging user experience, with the frosted glass effect complementing the modern and sleek design.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+<img src="assets/screenshots/voucher.png" alt="Voucher" width="300" />
 
-## Step 3: Modifying your App
+### Modal Animation
 
-Now that you have successfully run the app, let's modify it.
+The Modal Animation screen demonstrates smooth modal transitions with **ease-in** and **ease-out** effects. This provides an interactive experience with visually appealing animations, adding to the app's smooth, modern feel while maintaining the glassmorphism aesthetic.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+<img src="assets/screenshots/modal.png" alt="Modal Animation" width="300" />
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+### Icons
 
-## Congratulations! :tada:
+The Icons screen presents a collection of icons, displayed in a grid with dark and white shadows. The icons' colors change on each refresh, providing a dynamic visual experience. The glassmorphism effect on this screen adds a touch of sophistication while maintaining clarity and ease of use.
 
-You've successfully run and modified your React Native App. :partying_face:
+<img src="assets/screenshots/icon.png" alt="Icons" width="300" />
 
-### Now what?
+### Profile Screen
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+The Profile Screen displays the user's information, including their profile picture and other details, designed with the glassmorphism style for a refined, modern look.
 
-# Troubleshooting
+<img src="assets/screenshots/profile.png" alt="Profile Screen" width="300" />
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+---
 
-# Learn More
+## Features
 
-To learn more about React Native, take a look at the following resources:
+- **Glassmorphism Effect**: A frosted-glass effect applied across all screens, offering a modern and sleek design.
+- **Interactive Elements**: Buttons, modals, and icons that respond to user interactions with smooth animations.
+- **Mobile Responsiveness**: Fully optimized for both Android and iOS devices with support for different screen sizes and orientations.
+- **Dynamic Functionality**: Features like the random voucher percentage and changing icon colors add interactive and engaging elements to the app.
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** (>=12.x.x)
+- **npm** (or **yarn**)
+- **React Native CLI** (optional for some features)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sabarikennady/GlassMorphism.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd GlassMorphism
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the app on your emulator or physical device:
+
+   ```bash
+   react-native run-android
+   # or
+   react-native run-ios
+   ```
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
